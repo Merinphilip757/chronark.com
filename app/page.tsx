@@ -23,29 +23,40 @@ export default function Home() {
           ))}
         </ul>
       </nav>
+
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <Particles
         className="absolute inset-0 -z-10 animate-fade-in"
         quantity={100}
       />
-      <h1 className="py-3.5 px-0.5 z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
+
+      <h1 className="py-3.5 px-0.5 z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text">
         Merin Anna Philip
       </h1>
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+
       <div className="my-16 text-center animate-fade-in">
-        <h2 className="text-sm text-zinc-500 ">
-          I'm building{" "}
+        <h2 className="text-sm text-zinc-500">
+          Agentic AI Engineer building{" "}
           <Link
             target="_blank"
-            href="https://unkey.com"
+            href="https://github.com/Merinphilip757/CareerAI"
             className="underline duration-500 hover:text-zinc-300"
           >
-            unkey.com
-          </Link>, the developer platform for modern APIs. Deploy APIs instantly, route traffic through global gateways, and understand usage in one place.
+            AI Agents
+          </Link>
+          ,{" "}
+          <Link
+            target="_blank"
+            href="https://github.com/Merinphilip757/agentic-workflows-python"
+            className="underline duration-500 hover:text-zinc-300"
+          >
+            RAG Systems
+          </Link>{" "}
+          & LLM Applications with Python · LangGraph · LangChain · MCP
         </h2>
       </div>
     </div>
   );
-
 }
